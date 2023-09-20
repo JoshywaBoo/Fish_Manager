@@ -3,10 +3,10 @@ package model;
 public class Fish {
     private String type;
     private String name;
-    private Double daysOwned;
-    private Double foodPerMeal; // number of food in grams to feed fish per meal
+    private double daysOwned;
+    private double foodPerMeal; // number of food in grams to feed fish per meal
 
-    public Fish(String type, String name, Double daysOwned, Double foodPerMeal) {
+    public Fish(String type, String name, double daysOwned, double foodPerMeal) {
         this.type = type;
         this.name = name;
         this.daysOwned = daysOwned;
@@ -33,22 +33,22 @@ public class Fish {
         this.name = name;
     }
 
-    public Double getDaysOwned() {
+    public double getDaysOwned() {
         // returns the fish's type
         return this.daysOwned;
     }
 
-    public void setDaysOwned(Double daysOwned) {
+    public void setDaysOwned(double daysOwned) {
         // changes type of fish
         this.daysOwned = daysOwned;
     }
 
-    public Double getFoodPerMeal() {
+    public double getFoodPerMeal() {
         // returns the fish's type
         return this.foodPerMeal;
     }
 
-    public void setFoodPerMeal(Double foodPerMeal) {
+    public void setFoodPerMeal(double foodPerMeal) {
         // changes type of fish
         this.foodPerMeal = foodPerMeal;
     }
